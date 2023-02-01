@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.252" tests="8" skipped="0" failures="0" errors="0">
+<testcase classname="Portal Login" name="Home page default login" time="0.04">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on banking landing page.......................................passed
+When User login into application with username as "abc" and password as "1254".passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login" time="0.003">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on banking landing page.......................................passed
+When User login in to application with username as "abnbc" and password as "1459254".passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login" time="0.01">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on banking landing page.......................................passed
+When User sign with following details.......................................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login - Example #1.1" time="0">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on banking landing page.......................................passed
+When User login into application with user1 and pass1.......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login - Example #1.2" time="0.004">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on banking landing page.......................................passed
+When User login into application with user2 and pass2.......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login - Example #1.3" time="0.003">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on banking landing page.......................................passed
+When User login into application with user3 and pass3.......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login - Example #1.4" time="0.003">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on banking landing page.......................................passed
+When User login into application with user4 and pass4.......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Home page default login" time="0.003">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on banking landing page.......................................passed
+When User login into application with username as "abc" and password as "1254".passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
